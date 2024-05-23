@@ -1,4 +1,4 @@
-# YouTube Downloader Documentation
+# YouTube Downloader
 
 This documentation provides details on how to use a simple YouTube video downloader built using Python's `pytube` library and `tkinter` for the GUI. This tool allows users to download YouTube videos by entering the video URL.
 
@@ -27,7 +27,7 @@ This documentation provides details on how to use a simple YouTube video downloa
 
 ## Usage
 
-1. Run the script.
+1. Run the `hello.py` script.
 2. Enter the YouTube video URL in the input field.
 3. Click the "Download" button.
 4. The video will be downloaded to `C:/Users/masge/Downloads` with the filename `messi.mp4`. (set the download path according to your system)
