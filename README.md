@@ -16,7 +16,7 @@ This documentation provides details on how to use a simple YouTube video downloa
 
 ## Installation
 
-1. Make sure you have Python installed on your machine. You can download it from [python.org](https://www.python.org/). ![Static Badge](https://img.shields.io/badge/Python-3.7-blue)
+1. Make sure you have Python installed on your machine. You can download it from [python.org](https://www.python.org/) `Python >= 3.7`
 
 2. Install the required libraries using pip:
 
@@ -29,7 +29,7 @@ This documentation provides details on how to use a simple YouTube video downloa
 1. Run the `hello.py` script.
 2. Enter the YouTube video URL into the input field when the GUI pops up.
 3. Click the "Download" button.
-4. The video will be downloaded to `C:/Users/masge/Downloads` with the filename `messi.mp4`. (set the download path according to your system)
+4. The video will be downloaded to `C:/Users/<user-name>/Downloads` with the filename `messi.mp4`. (set the download path according to your system)
 
 ## Code Explanation
 
