@@ -2,6 +2,8 @@
 
 This documentation provides details on how to use a simple YouTube video downloader (BETA Version) built using Python's `pytube` library and `tkinter` for the GUI. This tool allows users to download YouTube videos by entering the video URL. Once the project is mature enough, I will do a stable release.
 
+NOTE: Not all video downloads are supported as there are many exceptional cases which are to be handled.
+
 ## Table of Contents
 
 - [Installation](#installation)
