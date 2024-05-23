@@ -46,5 +46,13 @@ def downloader(url):
     stream.download(filename="messi.mp4", output_path="C:/Users/masge/Downloads")
     print("Download done")
 ```
+
+## Known Issues
+
+- **Fixed Low-Resolution Stream**: The script currently downloads a fixed low-resolution stream (itag=278). You can modify the `itag` value in the `downloader` function to download different resolutions.
+- **Hardcoded Download Path**: The download path is set to the `Downloads` folder in the user's home directory. Consider adding an option for the user to specify the download path.
+- **Error Handling**: The script does not currently handle errors that may occur during the download process, such as invalid URLs or network issues. Adding error handling would improve the robustness of the application.
+- **GUI Enhancements**: The current GUI is very basic. Enhancements such as progress indicators, better layout management, and more user-friendly messages would improve the user experience.
+
 ## Contributing
 If you have suggestions or improvements, feel free to contribute. You can fork the repository, make your changes, and create a pull request.
