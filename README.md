@@ -28,7 +28,7 @@ This documentation provides details on how to use a simple YouTube video downloa
 1. Run the `hello.py` script.
 2. Enter the YouTube video URL into the input field when the GUI pops up.
 3. Click the "Download" button.
-4. The video will be downloaded to `C:/Users/<user-name>/Downloads` with the filename `messi.mp4`. (set the download path according to your system)
+4. The video will be downloaded to `C:/Users/<user-name>/Downloads` with the filename `ytdownload.mp4`. (replace the `<user-name>` with your `username` according to your system)
 
 ## Code Explanation
 
