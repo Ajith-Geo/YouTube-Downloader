@@ -28,7 +28,7 @@ This documentation provides details on how to use a simple YouTube video downloa
 ## Usage
 
 1. Run the `hello.py` script.
-2. Enter the YouTube video URL in the input field.
+2. Enter the YouTube video URL into the input field when the GUI pops up.
 3. Click the "Download" button.
 4. The video will be downloaded to `C:/Users/masge/Downloads` with the filename `messi.mp4`. (set the download path according to your system)
 
@@ -45,3 +45,6 @@ def downloader(url):
     stream = yt.streams.get_by_itag(itag=278)
     stream.download(filename="messi.mp4", output_path="C:/Users/masge/Downloads")
     print("Download done")
+```
+## Contributing
+If you have suggestions or improvements, feel free to contribute. You can fork the repository, make your changes, and create a pull request.
