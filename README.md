@@ -41,7 +41,7 @@ def downloader(url):
     yt = YouTube(url=url)
     print("Download started")
     stream = yt.streams.get_by_itag(itag=278)
-    stream.download(filename="messi.mp4", output_path="C:/Users/masge/Downloads")
+    stream.download(filename="ytdownload.mp4", output_path="C:/Users/<user-name>/Downloads")
     print("Download done")
 ```
 ### user_input Function
