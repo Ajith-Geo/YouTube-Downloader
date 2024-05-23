@@ -46,7 +46,15 @@ def downloader(url):
     stream.download(filename="messi.mp4", output_path="C:/Users/masge/Downloads")
     print("Download done")
 ```
+### user_input Function
 
+This function retrieves the URL entered by the user in the input field and calls the `downloader` function to download the video.
+
+```python
+def user_input():
+    url = text_inp.get()
+    downloader(url=url)
+```
 ## Known Issues
 
 - **Fixed Low-Resolution Stream**: The script currently downloads a fixed low-resolution stream (itag=278). You can modify the `itag` value in the `downloader` function to download different resolutions.
