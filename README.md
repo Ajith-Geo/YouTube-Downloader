@@ -9,7 +9,6 @@ This documentation provides details on how to use a simple YouTube video downloa
 - [Code Explanation](#code-explanation)
   - [downloader Function](#downloader-function)
   - [user_input Function](#user_input-function)
-  - [GUI Setup](#gui-setup)
 - [Running the Application](#running-the-application)
 - [Known Issues](#known-issues)
 - [Contributing](#contributing)
