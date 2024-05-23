@@ -56,3 +56,7 @@ def downloader(url):
 
 ## Contributing
 If you have suggestions or improvements, feel free to contribute. You can fork the repository, make your changes, and create a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
