@@ -18,11 +18,13 @@ NOTE: Not all video downloads are supported as there are many exceptional cases 
 ## Installation
 
 1. Make sure you have Python installed on your machine. You can download it from [python.org](https://www.python.org/) `Python >= 3.7`
-
-2. Install the required libraries using pip:
+2. Clone the `Youtube-Downloader` repository or download the latest source-code.zip from the releases section.
+3. If the zip file was downloaded, Extract the zip folder and navigate into the extracted folder (follow this step only if the zip file was downloaded from the releases section. Else, skip to step 4)  
+4. Open Command Prompt from the `Youtube-Downloader` folder.
+5. Execute the below command in the Command Prompt to install the libraries required:
 
     ```bash
-    pip install pytube
+    pip install -r requirements.txt
     ```
 
 ## Usage
